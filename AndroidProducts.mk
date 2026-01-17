@@ -6,9 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_P661N.mk
+    $(LOCAL_DIR)/twrp_P661n.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_P661N-user \
-    omni_P661N-userdebug \
-    omni_P661N-eng
+    twrp_P661n-eng
