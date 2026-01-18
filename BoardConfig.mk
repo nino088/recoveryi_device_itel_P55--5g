@@ -194,4 +194,14 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_P661n
 TW_LOAD_VENDOR_BOOT_MODULES := true
 
 # Version
-TW_DEVICE_VERSION := Nino_P662n
+TW_DEVICE_VERSION := Nino_P661n
+
+# PBRP flags
+PB_DISABLE_DEFAULT_DM_VERITY := true
+PB_DISABLE_DEFAULT_PATCH_AVB2 := true
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
+
+# Torch
+PB_TORCH_PATH := "/sys/devices/platform/torch/torch_level"
+
+
