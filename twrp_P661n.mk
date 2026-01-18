@@ -26,7 +26,7 @@ $(call inherit-product, vendor/pb/config/common.mk)
 $(call inherit-product, device/itel/P661n/device.mk)
 
 PRODUCT_DEVICE := P661n
-PRODUCT_NAME := twrp_P661n
+PRODUCT_NAME := pb_P661n
 PRODUCT_BRAND := ITEL
 PRODUCT_MODEL := itel P661n
 PRODUCT_MANUFACTURER := itel
