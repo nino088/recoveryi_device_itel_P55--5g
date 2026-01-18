@@ -1,3 +1,8 @@
+#!/bin/bash
+
+export ALLOW_MISSING_DEPENDENCIES=true
+export LC_ALL="C"
+
 TFILE=$PWD/out/hapticspath.patched
 [ ! -d "out" ]&& mkdir -p out
 RET=0
