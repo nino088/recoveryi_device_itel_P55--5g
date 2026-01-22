@@ -28,8 +28,3 @@ PRODUCT_MODEL := itel P661n
 PRODUCT_MANUFACTURER := itel
 
 PRODUCT_GMS_CLIENTID_BASE := android-tecno
-
-# Hide Reflash TWRP & FUSE passthrough
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.twrp.vendor_boot=true \
-    persist.sys.fuse.passthrough.enable=true
