@@ -99,9 +99,6 @@ TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
 # Platform
 TARGET_BOARD_PLATFORM := mt6833
 
-# VNDK
-BOARD_VNDK_VERSION := current
-
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
