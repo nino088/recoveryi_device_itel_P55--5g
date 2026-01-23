@@ -155,6 +155,9 @@ TW_HAS_MTP := true
 # USB OTG
 TW_USB_STORAGE := true
 
+# Fastbootd
+TW_INCLUDE_FASTBOOTD := true
+
 # StatusBar
 TW_STATUS_ICONS_ALIGN := center
 TW_CUSTOM_CPU_POS := "300"
