@@ -52,8 +52,6 @@ PRODUCT_PACKAGES += \
     otapreopt_script \
     cppreopts.sh
 
-PRODUCT_PROPERTY_OVERRIDES += ro.twrp.vendor_boot=true
-
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
