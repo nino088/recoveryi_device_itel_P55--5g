@@ -65,3 +65,4 @@ TW_PREPARE_DATA_MEDIA_EARLY := true
 
 # board
 include device/android/common/BoardConfigCommon.mk
+include device/twrp-device_transsion_mt6833-common/BoardConfigCommon.mk
