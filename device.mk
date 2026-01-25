@@ -68,8 +68,8 @@ PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
 # Fix error
-PRODUCT_SYSTEM_PROPERTIES += ro.zygote=zygote64_32
-PRODUCT_SYSTEM_PROPERTIES += ro.zygote=zygote64
+PRODUCT_VENDOR_PROPERTIES += ro.zygote=zygote64_32
+PRODUCT_VENDOR_PROPERTIES += ro.zygote=zygote64
 
 # Fastbootd
 PRODUCT_PACKAGES += \
