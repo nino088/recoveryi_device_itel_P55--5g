@@ -24,10 +24,10 @@ $(call inherit-product, device/itel/P661n/device.mk)
 PRODUCT_DEVICE := P661n
 PRODUCT_NAME := twrp_P661n
 PRODUCT_BRAND := ITEL
-PRODUCT_MODEL := itel P661n
+PRODUCT_MODEL := ITEL P661n
 PRODUCT_MANUFACTURER := itel
 
-PRODUCT_GMS_CLIENTID_BASE := android-tecno
+PRODUCT_GMS_CLIENTID_BASE := android-itel
 
 # Hide Reflash TWRP & FUSE passthrough
 PRODUCT_PROPERTY_OVERRIDES += \
